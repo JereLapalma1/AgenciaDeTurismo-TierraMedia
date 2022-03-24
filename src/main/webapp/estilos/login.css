@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,300;0,400;0,600;1,600&display=swap');
+
+body {
+
+  color: white;
+
+
+}
+
+.signin {
+  background-color: #d3d3d3;
+  font-family: 'Montserrat', sans-serif;
+  color: #fff;
+  font-size: 14px;
+  letter-spacing: 1px;
+  padding-top: 20px;
+
+}
+
+.login {
+  position: relative;
+  height: 560px;
+  width: 405px;
+  margin: auto;
+  padding: 60px 60px;
+  padding-top: 20px;
+  background: url(assets/img/img5.jpg) no-repeat center center;
+  background-size: cover;
+  box-shadow: -1px 1px 40px 8px #000;
+  border-radius: 10px;
+}
+
+form {
+
+  padding-bottom: 20px;
+}
+
+.active {
+
+  border-bottom: 2px solid #1161ed;
+}
+
+.nonactive {
+  color: rgba(255, 255, 255, 0.2);
+}
+
+img {
+  padding-left: 12px;
+  font-size: 22px;
+  text-transform: uppercase;
+  padding-bottom: 5px;
+  letter-spacing: 2px;
+  display: flex;
+  justify-content: center;
+  font-weight: 100;
+}
+
+img:first-child {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+span {
+  text-transform: uppercase;
+  font-size: 12px;
+  opacity: 0.4;
+  display: inline-block;
+  position: relative;
+  top: -65px;
+  transition: all 0.5s ease-in-out;
+}
+
+
+
+.text {
+  border: none;
+  width: 100%;
+  padding: 20px 20px;
+  display: block;
+  height: 25px;
+  border-radius: 20px;
+  background: rgba(255, 255, 255, 0.1);
+  border: 2px solid rgba(255, 255, 255, 0);
+  overflow: hidden;
+  margin-top: 15px;
+  transition: all 0.5s ease-in-out;
+}
+
+.text:focus {
+  outline: 0;
+  border: 2px solid rgba(255, 255, 255, 0.5);
+  border-radius: 20px;
+  background: rgba(0, 0, 0, 0);
+}
+
+.text:focus+span {
+  opacity: 0.6;
+}
+
+
+
+button {
+  border: none;
+  width: 100%;
+  padding: 30px 30px;
+  display: block;
+  height: 25px;
+  border-radius: 20px;
+  background: rgba(255, 255, 255, 0.1);
+  border: 2px solid rgba(255, 255, 255, 0);
+  overflow: hidden;
+
+  transition: all 0.5s ease-in-out;
+}
+
+button:focus {
+  outline: 0;
+  border: 2px solid rgba(255, 255, 255, 0.5);
+  border-radius: 20px;
+  background: rgba(0, 0, 0, 0);
+}
+
+button:focus+span {
+  opacity: 0.6;
+}
+
+
+
+input[type="nombre"],
+input[type="password"] {
+  font-family: 'Montserrat', sans-serif;
+  color: #fff;
+}
+
+
+
+input {
+  display: inline-block;
+  padding-top: 20px;
+  font-size: 14px;
+}
+
+
+
+label {
+  display: inline-block;
+  padding-top: 10px;
+  padding-left: 5px;
+}
+
+.signin {
+  background-color: #1161ed;
+  color: #FFF;
+  width: 100%;
+  padding: 10px 20px;
+  display: block;
+  height: 39px;
+  border-radius: 20px;
+  margin-top: 30px;
+  transition: all 0.5s ease-in-out;
+  border: none;
+  text-transform: uppercase;
+}
+
+
+section {
+
+  color: #ffffff;
+  padding-bottom: 20px;
+ 
+  min-height: 700px;
+  padding-top: 20px;
+}
+
+
+
+
+
+
+
+
+
+
